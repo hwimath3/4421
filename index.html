@@ -7,54 +7,34 @@
 <script>
   /* 게임 설정 및 문제 데이터 */
   const gameConfig = {
-  "gameTitle": "피타고라스 정리(상)",
+  "gameTitle": "삼각비(하)",
   "defaultScore": 10,
   "bannerURL": "",
   "randomizeQuestions": true,
   "questions": [
     {
       "id": 1,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/1.png"],
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/1.png"],
       "passage": "",
-      "answer": "2",
-      "type": "객관식",
+      "answer": "5/13",
+      "type": "주관식",
       "score": 10,
       "placeholders": "",
       "customOptions": ""
     },
     {
       "id": 2,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/2.png"],
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/2.png"],
       "passage": "",
-      "answer": "3",
-      "type": "객관식",
+      "answer": "3/5",
+      "type": "주관식",
       "score": 10,
       "placeholders": "",
       "customOptions": ""
     },
     {
       "id": 3,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/3.png"],
-      "passage": "",
-      "answer": "81",
-      "type": "주관식",
-      "score": 10,
-      "placeholders": ["답을 입력하세요(cm²)"],
-      "customOptions": ""
-    },
-    {
-      "id": 4,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/4.png"],
-      "passage": "",
-      "answer": "24",
-      "type": "주관식",
-      "score": 10,
-      "placeholders": ["답을 입력하세요(cm²)"],
-      "customOptions": ""
-    },
-    {
-      "id": 5,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/5.png"],
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/3.png"],
       "passage": "",
       "answer": "9",
       "type": "주관식",
@@ -63,28 +43,18 @@
       "customOptions": ""
     },
     {
-      "id": 6,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/6.png"],
+      "id": 4,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/4.png"],
       "passage": "",
-      "answer": "168/125",
+      "answer": "8",
       "type": "주관식",
       "score": 10,
       "placeholders": "",
       "customOptions": ""
     },
     {
-      "id": 7,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/7.png"],
-      "passage": "",
-      "answer": "74",
-      "type": "주관식",
-      "score": 10,
-      "placeholders": "",
-      "customOptions": ""
-    },
-    {
-      "id": 8,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/8.png"],
+      "id": 5,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/5.png"],
       "passage": "",
       "answer": "3",
       "type": "객관식",
@@ -93,28 +63,8 @@
       "customOptions": ""
     },
     {
-      "id": 9,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/9.png"],
-      "passage": "",
-      "answer": "336/25",
-      "type": "주관식",
-      "score": 10,
-      "placeholders": ["답을 입력하세요(cm²)"],
-      "customOptions": ""
-    },
-    {
-      "id": 10,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/10.png"],
-      "passage": "",
-      "answer": "900/23",
-      "type": "주관식",
-      "score": 10,
-      "placeholders": "",
-      "customOptions": ""
-    },
-    {
-      "id": 11,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/11.png"],
+      "id": 6,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/6.png"],
       "passage": "",
       "answer": "4",
       "type": "객관식",
@@ -123,118 +73,38 @@
       "customOptions": ""
     },
     {
-      "id": 12,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/12.png"],
+      "id": 7,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/7.png"],
       "passage": "",
-      "answer": "10",
-      "type": "주관식",
-      "score": 10,
-      "placeholders": "",
-      "customOptions": ""
-    },
-    {
-      "id": 13,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/13.png"],
-      "passage": "",
-      "answer": "65",
-      "type": "주관식",
-      "score": 10,
-      "placeholders": "",
-      "customOptions": ""
-    },
-    {
-      "id": 14,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/14.png"],
-      "passage": "",
-      "answer": "1",
+      "answer": ["2", "4"],
       "type": "객관식",
       "score": 10,
       "placeholders": "",
       "customOptions": ""
     },
     {
-      "id": 15,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/15.png"],
+      "id": 8,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/8.png"],
+      "passage": "",
+      "answer": ["4", "5"],
+      "type": "객관식",
+      "score": 10,
+      "placeholders": "",
+      "customOptions": ""
+    },
+    {
+      "id": 9,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/9.png"],
       "passage": "",
       "answer": "2",
-      "type": "객관식",
-      "score": 10,
-      "placeholders": "",
-      "customOptions": ""
-    },
-    {
-      "id": 16,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/16.png"],
-      "passage": "",
-      "answer": "125/9",
       "type": "주관식",
       "score": 10,
       "placeholders": "",
       "customOptions": ""
     },
     {
-      "id": 17,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/17.png"],
-      "passage": "",
-      "answer": "136",
-      "type": "주관식",
-      "score": 10,
-      "placeholders": "",
-      "customOptions": ""
-    },
-    {
-      "id": 18,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/18.png"],
-      "passage": "",
-      "answer": "772",
-      "type": "주관식",
-      "score": 10,
-      "placeholders": "",
-      "customOptions": ""
-    },
-    {
-      "id": 19,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/19.png"],
-      "passage": "",
-      "answer": "120",
-      "type": "주관식",
-      "score": 10,
-      "placeholders": ["답을 입력하세요(cm²)"],
-      "customOptions": ""
-    },
-    {
-      "id": 20,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/20.png"],
-      "passage": "",
-      "answer": "60/13",
-      "type": "주관식",
-      "score": 10,
-      "placeholders": ["답을 입력하세요(cm)"],
-      "customOptions": ""
-    },
-    {
-      "id": 21,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/21.png"],
-      "passage": "",
-      "answer": "450",
-      "type": "주관식",
-      "score": 10,
-      "placeholders": ["답을 입력하세요(cm²)"],
-      "customOptions": ""
-    },
-    {
-      "id": 22,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/22.png"],
-      "passage": "",
-      "answer": "200",
-      "type": "주관식",
-      "score": 10,
-      "placeholders": ["답을 입력하세요(cm²)"],
-      "customOptions": ""
-    },
-    {
-      "id": 23,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/23.png"],
+      "id": 10,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/10.png"],
       "passage": "",
       "answer": "5",
       "type": "객관식",
@@ -243,8 +113,98 @@
       "customOptions": ""
     },
     {
-      "id": 24,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/24.png"],
+      "id": 11,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/11.png"],
+      "passage": "",
+      "answer": "30",
+      "type": "주관식",
+      "score": 10,
+      "placeholders": ["답을 입력하세요(°)"],
+      "customOptions": ""
+    },
+    {
+      "id": 12,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/12.png"],
+      "passage": "",
+      "answer": "60",
+      "type": "주관식",
+      "score": 10,
+      "placeholders": ["답을 입력하세요(°)"],
+      "customOptions": ""
+    },
+    {
+      "id": 13,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/13.png"],
+      "passage": "",
+      "answer": "4",
+      "type": "객관식",
+      "score": 10,
+      "placeholders": "",
+      "customOptions": ""
+    },
+    {
+      "id": 14,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/14.png"],
+      "passage": "",
+      "answer": "3",
+      "type": "주관식",
+      "score": 10,
+      "placeholders": ["답을 입력하세요(cm)"],
+      "customOptions": ""
+    },
+    {
+      "id": 15,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/15.png"],
+      "passage": "",
+      "answer": "1",
+      "type": "객관식",
+      "score": 10,
+      "placeholders": "",
+      "customOptions": ""
+    },
+    {
+      "id": 16,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/16.png"],
+      "passage": "",
+      "answer": "2",
+      "type": "객관식",
+      "score": 10,
+      "placeholders": "",
+      "customOptions": ""
+    },
+    {
+      "id": 17,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/17.png"],
+      "passage": "",
+      "answer": "1",
+      "type": "객관식",
+      "score": 10,
+      "placeholders": "",
+      "customOptions": ""
+    },
+    {
+      "id": 18,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/18.png"],
+      "passage": "",
+      "answer": "1",
+      "type": "주관식",
+      "score": 10,
+      "placeholders": "",
+      "customOptions": ""
+    },
+    {
+      "id": 19,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/19.png"],
+      "passage": "",
+      "answer": "1",
+      "type": "주관식",
+      "score": 10,
+      "placeholders": "",
+      "customOptions": ""
+    },
+    {
+      "id": 20,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/20.png"],
       "passage": "",
       "answer": "3",
       "type": "객관식",
@@ -253,13 +213,53 @@
       "customOptions": ""
     },
     {
-      "id": 25,
-      "images": ["https://raw.githubusercontent.com/hwimath3/5471/main/25.png"],
+      "id": 21,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/21.png"],
       "passage": "",
-      "answer": "1",
+      "answer": "5",
       "type": "객관식",
       "score": 10,
       "placeholders": "",
+      "customOptions": ""
+    },
+    {
+      "id": 22,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/22.png"],
+      "passage": "",
+      "answer": "0.5878",
+      "type": "주관식",
+      "score": 10,
+      "placeholders": "",
+      "customOptions": ""
+    },
+    {
+      "id": 23,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/23.png"],
+      "passage": "",
+      "answer": "0.6494",
+      "type": "주관식",
+      "score": 10,
+      "placeholders": "",
+      "customOptions": ""
+    },
+    {
+      "id": 24,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/24.png"],
+      "passage": "",
+      "answer": "65",
+      "type": "주관식",
+      "score": 10,
+      "placeholders": ["답을 입력하세요(°)"],
+      "customOptions": ""
+    },
+    {
+      "id": 25,
+      "images": ["https://raw.githubusercontent.com/hwimath3/4421/main/25.png"],
+      "passage": "",
+      "answer": "28",
+      "type": "주관식",
+      "score": 10,
+      "placeholders": ["답을 입력하세요(°)"],
       "customOptions": ""
     }
   ]
@@ -2209,4 +2209,5 @@
   };
  </script>
 </body>
+
 </html>
